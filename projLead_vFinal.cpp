@@ -91,7 +91,7 @@ vector<double> LowPassFilter (vector<double> &LPF, vector<double> &vY, float tau
     LPF[0] = alpha*vY[0]; // O primeiro termo depende apenas da entrada inicial
 
     for (int k = 1; k < vY.size(); k++) {
-        LPF[k] = (alpha * (vY[k] - vY[k-1]) - beta * LPF[k-1]);
+        LPF[k] = (alpha * (vY[k] + vY[k-1]) - beta * LPF[k-1]);
     }
     return LPF; 
 }

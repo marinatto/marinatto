@@ -21,6 +21,6 @@
   Please make sure to update tests as appropriate.
   
 ## Project status 
-  I intend to do a english version for the comments on the code and a PT-BR version for this README file.
+  I intend to do an english version for the comments on the code and a PT-BR version for this README file.
   Also, I intend to implement a few more filter to processs a sensor data in the future.
 
